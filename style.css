@@ -95,7 +95,7 @@
         .tab-btn-vertical:hover { background: #e0eef7; }
         .tab-btn-vertical.active { background: #0a2a3a; color: white; }
 
-        .search-bar { margin-bottom: 10px; display: flex; align-items: center; background: white; border-radius: 40px; border: 1px solid #d0e0e8; padding: 6px 18px; gap: 10px; flex-shrink: 0; }
+        .search-bar { margin-bottom: 10px; display: flex; align-items: center; background: white; border-radius: 40px; border: 1px solid #d0e0e8; padding: 5px 14px; gap: 10px; flex-shrink: 0; }
         .search-input { flex: 1; border: none; padding: 8px 0; font-size: 0.85rem; outline: none; background: transparent; }
         .search-clear { background: none; border: none; color: #8aaec0; cursor: pointer; display: none; font-size: 1rem; }
 
@@ -113,8 +113,8 @@
         .proc-table th { text-align: left; padding: 12px 10px; background: #f0f6fa; font-weight: 700; color: #0a2a3a; border-bottom: 2px solid #c8dce8; position: sticky; top: 0; z-index: 10; }
         .proc-table td { padding: 9px 10px; border-bottom: 1px solid #eaf0f5; vertical-align: middle; }
         .proc-table tr:hover td { background-color: #f5fafd; }
-        .proc-table th:nth-child(1) { width: 68%; }
-        .proc-table th:nth-child(2) { width: 15%; }
+        .proc-table th:nth-child(1) { width: 70%; }
+        .proc-table th:nth-child(2) { width: 13%; }
         .proc-table th:nth-child(3) { width: 10%; }
         .proc-table th:nth-child(4) { width: 7%; }
         
