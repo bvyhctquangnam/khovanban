@@ -142,8 +142,7 @@
         { name: "Quy trình hỗ trợ chuyên môn tuyến dưới", soKyHieu: "", ngayBanHanh: "", link: "#" }
     ]);
 
-    var nghienCuuKHData = sortByDateDesc([
-        { name: "Nghiên cứu: Hiệu quả cấy chỉ điều trị thoái hóa khớp", soKyHieu: "", ngayBanHanh: "", link: "#" },
+    var nghienCuuKHData = sortByDateDesc([        
 	{ name: "Quyết định thành lập Hội đồng Khoa học và sáng kiến", soKyHieu: "54/QĐ-BVYHCT", ngayBanHanh: "24/03/2026", link: "https://drive.google.com/file/d/1EOuITTtFL6qR_ummGj2nKdoFKKew5j8j/view" },
         { name: "Kế hoạch nghiên cứu khoa học năm 2025", soKyHieu: "", ngayBanHanh: "", link: "#" },
         { name: "Danh sách đề tài NCKH được nghiệm thu 2024", soKyHieu: "", ngayBanHanh: "", link: "#" },
@@ -160,14 +159,13 @@
     ]);
 
     var phanMemTrucTuyenData = sortByDateDesc([
-        { name: "Phần mềm đào tạo trực tuyến (LMS)", soKyHieu: "", ngayBanHanh: "", link: "https://daotao.bvyhctquangnam.vn" },
-        { name: "Phần mềm hội chẩn từ xa", soKyHieu: "", ngayBanHanh: "", link: "https://telemed.bvyhctquangnam.vn" },
-        { name: "Phần mềm đăng ký khám bệnh trực tuyến", soKyHieu: "", ngayBanHanh: "", link: "https://dangky.bvyhctquangnam.vn" },
-        { name: "Phần mềm bệnh án điện tử (EMR)", soKyHieu: "", ngayBanHanh: "", link: "https://emr.bvyhctquangnam.vn" },
-        { name: "Phần mềm quản lý nhân sự y tế", soKyHieu: "", ngayBanHanh: "", link: "https://nhansu.bvyhctquangnam.vn" },
-        { name: "Phần mềm báo cáo bệnh truyền nhiễm", soKyHieu: "", ngayBanHanh: "", link: "https://baocao.bvyhctquangnam.vn" },
-        { name: "Phần mềm quản lý chất lượng bệnh viện (QMS)", soKyHieu: "", ngayBanHanh: "", link: "https://qms.bvyhctquangnam.vn" },
-        { name: "Phần mềm khám chữa bệnh (HIS)", soKyHieu: "", ngayBanHanh: "", link: "https://his.bvyhctquangnam.vn" }
+        { name: "Website Bệnh viện Y học cổ truyền Quảng Nam", soKyHieu: "", ngayBanHanh: "", link: "https://bvyhctquangnam.vn" },
+	{ name: "Cổng tiếp nhận dữ liệu hệ thống thông tin giám định BHYT", soKyHieu: "", ngayBanHanh: "", link: "https://gdbhyt.baohiemxahoi.gov.vn" },
+	{ name: "Hệ thống thông tin quản lý hoạt động khám bệnh, chữa bệnh", soKyHieu: "", ngayBanHanh: "", link: "https://cdc.kcb.vn" },
+        { name: "Hệ thống quản lý quốc gia về hành nghề và hoạt động khám bệnh, chữa bệnh", soKyHieu: "", ngayBanHanh: "", link: "https://app.qlhanhnghekcb.gov.vn" },
+        { name: "Hệ thống thông tin quốc gia về quản lý kê đơn thuốc và bán thuốc theo đơn", soKyHieu: "", ngayBanHanh: "", link: "https://donthuocquocgia.vn" },
+        { name: "Hệ thống quản lý chất lượng bệnh viện", soKyHieu: "", ngayBanHanh: "", link: "https://nova.qlbv.vn" },
+        { name: "Hệ thống quản lý mã hóa lâm sàng khám chữa bệnh (ICD)", soKyHieu: "", ngayBanHanh: "", link: "https://icd.kcb.vn" }        
     ]);
 
     var categories = {
